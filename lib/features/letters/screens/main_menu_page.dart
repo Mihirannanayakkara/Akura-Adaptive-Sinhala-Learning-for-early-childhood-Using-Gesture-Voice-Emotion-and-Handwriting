@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:letter_train/features/home/pages/Rata_menu.dart';
 import 'letter_menu.dart';
-
+import '../../mini_games/pages/mini_game_1_page.dart';
+import '../../mini_games/pages/mini_game_2_page.dart';
 
 class MainMenuPage extends StatelessWidget {
   const MainMenuPage({super.key});
@@ -10,14 +12,7 @@ class MainMenuPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xFFF2F2F7), // iOS system background color
       appBar: AppBar(
-        title: const Text(
-          'Welcome',
-          style: TextStyle(
-            fontSize: 28,
-            fontWeight: FontWeight.w600,
-            color: Color(0xFF1C1C1E), // iOS dark text
-          ),
-        ),
+      
         backgroundColor: Colors.white,
         elevation: 0,
         centerTitle: true,
@@ -63,7 +58,7 @@ class MainMenuPage extends StatelessWidget {
                   _buildMenuCard(
                       context: context,
                       icon: Icons.flag_rounded,
-                      title: 'රට උගනිමු',
+                      title: 'රටා උගනිමු',
                       subtitle: 'Learn about countries and shapes',
                       color: const Color(0xFF34C759), 
                       onTap: () {
@@ -120,7 +115,7 @@ class MainMenuPage extends StatelessWidget {
             Container(
               padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 24),
               child: Text(
-                '© 2025 Letter Train',
+                '© 2025 AKURA',
                 style: TextStyle(
                   fontSize: 13,
                   color: const Color(0xFF8E8E93).withOpacity(0.8),

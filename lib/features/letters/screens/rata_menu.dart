@@ -29,7 +29,7 @@ class RataHomePage extends StatelessWidget {
       backgroundColor: const Color(0xFFF2F2F7),
       appBar: AppBar(
         title: const Text(
-          'රට උගනිමු',
+          'රටා උගනිමු',
           style: TextStyle(
             fontSize: 17,
             fontWeight: FontWeight.w600,
