@@ -2,7 +2,7 @@
 
 ## Overview
 
-Akura is a research-driven, adaptive learning platform designed to support early childhood education (ages 3–7) for Sinhala-speaking children in Sri Lanka. The project integrates **gesture recognition, handwriting analysis, speech-based pronunciation feedback, and emotion-aware adaptation** to address long-standing limitations in traditional preschool education, such as rote memorization, large student–teacher ratios, and lack of personalized feedback.
+Akura is a research-driven, adaptive learning platform designed to support early childhood education for Sinhala-speaking children in Sri Lanka. The project integrates **gesture recognition, handwriting analysis, speech-based pronunciation feedback, and emotion-aware adaptation** to address long-standing limitations in traditional preschool education, such as rote memorization, large student–teacher ratios, and lack of personalized feedback.
 
 The system is designed as a **mobile, offline-first application**, ensuring accessibility in resource-constrained and low-connectivity environments while maintaining strong privacy safeguards.
 
