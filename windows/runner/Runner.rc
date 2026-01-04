@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "akura_adaptive_sinhala_learning" "\0"
+            VALUE "FileDescription", "emotion_app" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "akura_adaptive_sinhala_learning" "\0"
+            VALUE "InternalName", "emotion_app" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "akura_adaptive_sinhala_learning.exe" "\0"
-            VALUE "ProductName", "akura_adaptive_sinhala_learning" "\0"
+            VALUE "OriginalFilename", "emotion_app.exe" "\0"
+            VALUE "ProductName", "emotion_app" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
