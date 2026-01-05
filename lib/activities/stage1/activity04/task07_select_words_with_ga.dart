@@ -1,0 +1,24 @@
+import 'package:flutter/material.dart';
+import 'package:emotion_app/activities/common/task_registry.dart';
+import 'package:emotion_app/activities/common/task_templates.dart';
+
+class S1A4Task07SelectWordsWithGa extends StatelessWidget {
+  final TaskCallbacks callbacks;
+  const S1A4Task07SelectWordsWithGa({super.key, required this.callbacks});
+
+  @override
+  Widget build(BuildContext context) {
+    return AkMultiSelectWordsTask(
+      prompt: "\"ග\" යන්න ඇතුලත් වචන තෝරන්න",
+      words: const ["ගස", "රට", "අම්මා", "ගල", "ඉර", "ගවයා"],
+      correctWords: const {"ගවයා", "ගස", "ගල"},
+      callbacks: callbacks,
+      angryHelp: const AkAngryHelpSpec(
+        alignment: Alignment.centerLeft,
+        margin: EdgeInsets.only(left: 12),
+        explanationText: "“ග” තියෙන වචන 3ක්: ගස, ගල, ගවයා. ඒ තුනම තෝරන්න!",
+        audioAsset: "audio/stage1/activity04/help_task07_words_with_ga.mp3",
+      ),
+    );
+  }
+}

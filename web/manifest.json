@@ -1,6 +1,6 @@
 {
-    "name": "akura_adaptive_sinhala_learning",
-    "short_name": "akura_adaptive_sinhala_learning",
+    "name": "emotion_app",
+    "short_name": "emotion_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
