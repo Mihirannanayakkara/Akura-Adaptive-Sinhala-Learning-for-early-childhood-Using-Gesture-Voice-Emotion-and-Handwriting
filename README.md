@@ -29,15 +29,39 @@ This project is currently under active implementation as part of an academic res
 
 ---
 
+### Branching Model & Version Control
+We strictly follow the **GitHub Flow** branching model to ensure organized development and a full project history:
+* **Main Branch:** Holds the stable, production-ready code.
+* **Feature Branches:** Individual modules are developed in dedicated branches.
+
+---  
+
 ## System Overview
 <img width="949" height="576" alt="image" src="https://github.com/user-attachments/assets/52de0d9a-4921-46f4-9e73-38a1439788a5" />
 
 
 ---
 
+### Technical Dependencies
+* **Framework:** Flutter & Dart (Cross-platform UI).
+* **Machine Learning:** TensorFlow Lite (`.tflite`) for Emotion and Voice models.
+* **Native Integration:** Google MediaPipe (Native Android/iOS) for Gesture/Number recognition.
+* **Graphics:** Custom SVG path-processing for real-time handwriting validation.
+
+---
+
+## Major Breakthroughs
+* **Project Completion Status:** Successfully reached over 50% completion of the total planned research and development objectives.
+
+---
+
 ## Contributors
 
 * Research Team – **Akura Project**
+* **Mihiran:** Real-time Handwriting component.
+* **Rahul:** Pronunciation Practice & Voice modeling.
+* **Dhuwindhu:** Emotion-aware adaptation.
+* **Dinithi:** MediaPipe setup & Gesture-based number learning.
 
 ---
 
