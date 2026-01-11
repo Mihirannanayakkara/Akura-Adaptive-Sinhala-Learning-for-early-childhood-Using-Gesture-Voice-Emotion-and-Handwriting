@@ -29,7 +29,7 @@ This project is currently under active implementation as part of an academic res
 
 ---
 
-### Branching Model & Version Control
+## Branching Model & Version Control
 We strictly follow the **GitHub Flow** branching model to ensure organized development and a full project history:
 * **Main Branch:** Holds the stable, production-ready code.
 * **Feature Branches:** Individual modules are developed in dedicated branches.
@@ -42,7 +42,7 @@ We strictly follow the **GitHub Flow** branching model to ensure organized devel
 
 ---
 
-### Technical Dependencies
+## Technical Dependencies
 * **Framework:** Flutter & Dart (Cross-platform UI).
 * **Machine Learning:** TensorFlow Lite (`.tflite`) for Emotion and Voice models.
 * **Native Integration:** Google MediaPipe (Native Android/iOS) for Gesture/Number recognition.
