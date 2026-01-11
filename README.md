@@ -50,8 +50,11 @@ We strictly follow the **GitHub Flow** branching model to ensure organized devel
 
 ---
 
-## Major Breakthroughs
-* **Project Completion Status:** Successfully reached over 50% completion of the total planned research and development objectives.
+## Major Breakthroughs & Progress
+* **Project Completion Status:** Successfully reached over **50% completion** of the total planned research and development objectives.
+* **Offline AI Inference:** Successfully integrated custom TFLite models for Emotion and Speech that function entirely on-device.
+* **Native-Flutter Bridge:** Established a high-performance communication layer between Native MediaPipe landmarks and the Flutter UI.
+* **Real-time Path Tracking:** Developed an SVG-based validation engine for Sinhala character stroke accuracy.
 
 ---
 
